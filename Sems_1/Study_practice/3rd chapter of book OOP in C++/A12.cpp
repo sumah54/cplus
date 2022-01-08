@@ -1,5 +1,5 @@
+//fraction_calculator_in_loop
 #include<iostream>
-#include<conio.h>
 using namespace std;
 
 int main(){
@@ -33,7 +33,8 @@ int main(){
 			int div2= (num2*num3);
 			cout<<"Division: "<<div1/div2;
 		}
-		cout<<"\nDo you wish to continue? (y/n):\n";
-	}while((ask=getche())!='n'&&(ask=getche())!='\r');
+		cout<<"\nDo you wish to continue? (y/n): ";
+		cin >>ask;
+	}while(ask!='n'|| ask !='\r');
 	return 0;
 }	
