@@ -14,8 +14,12 @@ int main(){
 	cin >> interst;
 	interst /= 100; //converting it into percent
 	for (int y=years;y>0;y--){ //starting loop to increase the saved value
+	
+	
 		num=am+(am*interst); //process of saving the investment
+	
 		//cout<<num<<endl;
+	
 		am=num; //assigning the value to continue to loop
 		
 	}
